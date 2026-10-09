@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>CV Editor</title>
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="editor/admin.css">
+</head>
+<body class="admin">
+<header class="topbar">
+  <h1>CV Editor</h1>
+  <span class="status" id="status">Loading…</span>
+  <a class="btn" href="cv.html" target="_blank" rel="noopener" style="display:inline-flex;align-items:center">CV page</a>
+  <button class="btn" id="previewBtn" type="button">Preview CV</button>
+  <button class="btn primary" id="saveBtn" type="button" disabled>Save</button>
+  <button class="btn" id="signOutBtn" type="button">Sign out</button>
+</header>
+<nav class="tabs" role="tablist">
+  <button role="tab" data-tab="pubs" aria-selected="true">Publications</button>
+  <button role="tab" data-tab="cv">CV sections</button>
+  <button role="tab" data-tab="themes">Themes and keywords</button>
+  <button role="tab" data-tab="io">Import and export</button>
+  <button role="tab" data-tab="settings">Settings</button>
+</nav>
+<main class="wrap" id="main"></main>
+<script src="editor/config.js"></script>
+<script src="editor/auth.js"></script>
+<script src="editor/marked.umd.js"></script>
+<script src="assets/common.js"></script>
+<script src="editor/admin.js"></script>
+</body>
+</html>

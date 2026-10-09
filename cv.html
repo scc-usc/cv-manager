@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>CV — Ajitesh Srivastava</title>
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="editor/admin.css">
+</head>
+<body>
+<div class="cv-bar">
+  <span class="spacer" id="stamp"></span>
+  <button class="btn" id="md" type="button">Download Markdown</button>
+  <button class="btn primary" id="pdf" type="button">Save as PDF</button>
+  <button class="btn" id="out" type="button">Sign out</button>
+</div>
+<main class="cv" id="cv"><p>Loading…</p></main>
+<script src="editor/config.js"></script>
+<script src="editor/auth.js"></script>
+<script src="editor/marked.umd.js"></script>
+<script src="assets/common.js"></script>
+<script>
+window.CVAuth.start(async function () {
+  const K = window.CVKit;
+  document.getElementById("out").onclick = () => window.CVAuth.signOut();
+  let cv, pubs;
+  try { [cv, pubs] = await Promise.all([window.CVAuth.loadDoc("cv"), K.loadJSON("data/pubs.json")]); }
+  catch (e) { document.getElementById("cv").textContent = "Could not load: " + e.message; return; }
+  if (!cv) { document.getElementById("cv").innerHTML = '<p>No CV is stored yet. Open the <a href="editor.html">editor</a> and load cv.json in Import and export.</p>'; return; }
+  document.getElementById("cv").innerHTML = K.cvHTML(cv, pubs);
+  const name = (cv.profile && cv.profile.name) || "CV";
+  document.title = "CV — " + name;
+  document.getElementById("stamp").textContent = "Generated " + new Date().toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" });
+  document.getElementById("pdf").onclick = () => window.print();
+  document.getElementById("md").onclick = () => {
+    const blob = new Blob([K.cvMarkdown(cv, pubs)], { type: "text/markdown" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob); a.download = name.replace(/\s+/g, "_") + "_CV.md"; a.click();
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  };
+});
+</script>
+</body>
+</html>

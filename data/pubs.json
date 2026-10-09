@@ -1,0 +1,2126 @@
+{
+  "owner": {
+    "name": "Ajitesh Srivastava",
+    "highlight": [
+      "A. Srivastava",
+      "Ajitesh Srivastava"
+    ]
+  },
+  "categories": [
+    "Machine Learning for Scientific Discovery and Dynamical Systems",
+    "Graph Machine Learning",
+    "Epidemic Modeling, Forecasting, and Evaluation",
+    "Multi-model Consortium Studies",
+    "Algorithms, Network Diffusion, and Optimization",
+    "AI for Social Good and Health",
+    "Machine Learning for Computer Systems",
+    "Parallel Computing and FPGA",
+    "Other Machine Learning Applications"
+  ],
+  "types": [
+    "conference",
+    "journal",
+    "workshop",
+    "chapter",
+    "preprint",
+    "thesis"
+  ],
+  "statuses": [
+    "published",
+    "accepted",
+    "under review",
+    "preprint"
+  ],
+  "publications": [
+    {
+      "id": "montazerin2026smile",
+      "title": "SMILE: Bridging Continuous Optimization and Discrete Symbolic Recovery",
+      "authors": [
+        "M. Montazerin",
+        "A. Ortega",
+        "A. Srivastava"
+      ],
+      "venue": "The Fortieth Annual Conference on Neural Information Processing Systems (NeurIPS)",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "category": "Machine Learning for Scientific Discovery and Dynamical Systems",
+      "keywords": [
+        "Symbolic Regression",
+        "Machine Learning"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "srivastava2026hyperode",
+      "title": "HyperODE: Zero-Shot Surrogate for Simulation and Inference of Dynamical Systems",
+      "authors": [
+        "A. Srivastava"
+      ],
+      "venue": "arXiv:2608.00852",
+      "year": 2026,
+      "type": "preprint",
+      "status": "preprint",
+      "category": "Machine Learning for Scientific Discovery and Dynamical Systems",
+      "keywords": [
+        "Surrogate Modeling",
+        "Graph Neural Networks",
+        "Epidemics",
+        "Time-series"
+      ],
+      "award": "",
+      "url": "https://arxiv.org/abs/2608.00852",
+      "note": ""
+    },
+    {
+      "id": "huang2025swat",
+      "title": "SWAT-NN: Simultaneous Weights and Architecture Training for Neural Networks in a Latent Space",
+      "authors": [
+        "Z. Huang",
+        "M. Montazerin",
+        "A. Srivastava"
+      ],
+      "venue": "IEEE International Conference on Big Data (BigData)",
+      "year": 2025,
+      "type": "conference",
+      "status": "published",
+      "category": "Machine Learning for Scientific Discovery and Dynamical Systems",
+      "keywords": [
+        "Machine Learning",
+        "Neural Architecture"
+      ],
+      "award": "",
+      "url": "https://ieeexplore.ieee.org/document/11401033/",
+      "note": ""
+    },
+    {
+      "id": "montazerin2025sparse",
+      "title": "Sparse Interpretable Deep Learning with LIES Networks for Symbolic Regression",
+      "authors": [
+        "M. Montazerin",
+        "M. Al Aawar",
+        "A. Ortega",
+        "A. Srivastava"
+      ],
+      "venue": "arXiv:2506.08267",
+      "year": 2025,
+      "type": "preprint",
+      "status": "preprint",
+      "category": "Machine Learning for Scientific Discovery and Dynamical Systems",
+      "keywords": [
+        "Symbolic Regression",
+        "Machine Learning"
+      ],
+      "award": "",
+      "url": "https://arxiv.org/abs/2506.08267",
+      "note": ""
+    },
+    {
+      "id": "huang2024simultaneous",
+      "title": "Simultaneous Weight and Architecture Optimization for Neural Networks",
+      "authors": [
+        "Z. Huang",
+        "M. Montazerin",
+        "A. Srivastava"
+      ],
+      "venue": "NeurIPS 2024 Workshop on Fine-Tuning in Modern Machine Learning (FITML)",
+      "year": 2024,
+      "type": "workshop",
+      "status": "published",
+      "category": "Machine Learning for Scientific Discovery and Dynamical Systems",
+      "keywords": [
+        "Machine Learning",
+        "Neural Architecture"
+      ],
+      "award": "",
+      "url": "https://arxiv.org/abs/2410.08339",
+      "note": ""
+    },
+    {
+      "id": "jahandari2023adjusting",
+      "title": "Adjusting for Unmeasured Confounding Variables in Dynamic Networks",
+      "authors": [
+        "S. Jahandari",
+        "A. Srivastava"
+      ],
+      "venue": "IEEE Control Systems Letters",
+      "year": 2023,
+      "type": "journal",
+      "status": "published",
+      "category": "Machine Learning for Scientific Discovery and Dynamical Systems",
+      "keywords": [
+        "Dynamical Systems",
+        "Causal Inference"
+      ],
+      "award": "",
+      "url": "https://ieeexplore.ieee.org/document/10004967/",
+      "note": ""
+    },
+    {
+      "id": "jahandari2023detection",
+      "title": "Detection of Delays and Feedthroughs in Dynamic Networked Systems",
+      "authors": [
+        "S. Jahandari",
+        "A. Srivastava"
+      ],
+      "venue": "IEEE Control Systems Letters",
+      "year": 2023,
+      "type": "journal",
+      "status": "published",
+      "category": "Machine Learning for Scientific Discovery and Dynamical Systems",
+      "keywords": [
+        "Dynamical Systems"
+      ],
+      "award": "",
+      "url": "https://ieeexplore.ieee.org/document/10004036/",
+      "note": ""
+    },
+    {
+      "id": "tian2026generating",
+      "title": "Generating Intervention Hypotheses using Explainable Explanations on Graphs: G2I, a Two-Stage Greedy Framework",
+      "authors": [
+        "M. Tian",
+        "A. Srivastava"
+      ],
+      "venue": "35th ACM International Conference on Information and Knowledge Management (CIKM)",
+      "year": 2026,
+      "type": "conference",
+      "status": "accepted",
+      "category": "Graph Machine Learning",
+      "keywords": [
+        "Graph Neural Networks",
+        "Explainability",
+        "Interventions"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "tian2025trendgnn",
+      "title": "TrendGNN: Towards Understanding of Epidemics, Beliefs, and Behaviors",
+      "authors": [
+        "M. Tian",
+        "A. Srivastava"
+      ],
+      "venue": "arXiv:2512.00421",
+      "year": 2025,
+      "type": "preprint",
+      "status": "preprint",
+      "category": "Graph Machine Learning",
+      "keywords": [
+        "Graph Neural Networks",
+        "Epidemics"
+      ],
+      "award": "",
+      "url": "https://arxiv.org/abs/2512.00421",
+      "note": ""
+    },
+    {
+      "id": "srivastava2025peer",
+      "title": "Peer Disambiguation in Self-Reported Surveys using Graph Attention Networks",
+      "authors": [
+        "A. Srivastava",
+        "A. Shetty",
+        "E. Rice"
+      ],
+      "venue": "arXiv:2503.20076",
+      "year": 2025,
+      "type": "preprint",
+      "status": "preprint",
+      "category": "Graph Machine Learning",
+      "keywords": [
+        "Graph Neural Networks",
+        "Social Good"
+      ],
+      "award": "",
+      "url": "https://arxiv.org/abs/2503.20076",
+      "note": ""
+    },
+    {
+      "id": "aawar2025dynamics",
+      "title": "Dynamics-based Feature Augmentation of Graph Neural Networks for Variant Emergence Prediction",
+      "authors": [
+        "M. Al Aawar",
+        "S. Mutnuri",
+        "M. Montazerin",
+        "A. Srivastava"
+      ],
+      "venue": "39th Annual AAAI Conference on Artificial Intelligence (AAAI)",
+      "year": 2025,
+      "type": "conference",
+      "status": "published",
+      "category": "Graph Machine Learning",
+      "keywords": [
+        "Graph Neural Networks",
+        "Epidemics",
+        "COVID-19"
+      ],
+      "award": "",
+      "url": "https://arxiv.org/abs/2401.03390",
+      "note": ""
+    },
+    {
+      "id": "ormerogers2023spatio",
+      "title": "Spatio-Temporal Attention in Multi-Granular Brain Chronnectomes for Detection of Autism Spectrum Disorder",
+      "authors": [
+        "J. Orme-Rogers",
+        "A. Srivastava"
+      ],
+      "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)",
+      "year": 2023,
+      "type": "conference",
+      "status": "published",
+      "category": "Graph Machine Learning",
+      "keywords": [
+        "Graph Neural Networks",
+        "Brain Networks"
+      ],
+      "award": "",
+      "url": "https://arxiv.org/abs/2211.07360",
+      "note": ""
+    },
+    {
+      "id": "zeng2021decoupling",
+      "title": "Decoupling the Depth and Scope of Graph Neural Networks",
+      "authors": [
+        "H. Zeng",
+        "M. Zhang",
+        "Y. Xia",
+        "A. Srivastava",
+        "A. Malevich",
+        "R. Kannan",
+        "V. K. Prasanna",
+        "L. Jin",
+        "R. Chen"
+      ],
+      "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+      "year": 2021,
+      "type": "conference",
+      "status": "published",
+      "category": "Graph Machine Learning",
+      "keywords": [
+        "Graph Neural Networks"
+      ],
+      "award": "",
+      "url": "https://arxiv.org/abs/2201.07858",
+      "note": ""
+    },
+    {
+      "id": "zhou2021accelerating",
+      "title": "Accelerating Large Scale Real-Time GNN Inference using Channel Pruning",
+      "authors": [
+        "H. Zhou",
+        "A. Srivastava",
+        "H. Zeng",
+        "R. Kannan",
+        "V. K. Prasanna"
+      ],
+      "venue": "Proceedings of the VLDB Endowment (VLDB)",
+      "year": 2021,
+      "type": "journal",
+      "status": "published",
+      "category": "Graph Machine Learning",
+      "keywords": [
+        "Graph Neural Networks"
+      ],
+      "award": "",
+      "url": "https://arxiv.org/abs/2105.04528",
+      "note": ""
+    },
+    {
+      "id": "zeng2021accurate",
+      "title": "Accurate, Efficient and Scalable Training of Graph Neural Networks",
+      "authors": [
+        "H. Zeng",
+        "H. Zhou",
+        "A. Srivastava",
+        "R. Kannan",
+        "V. K. Prasanna"
+      ],
+      "venue": "Journal of Parallel and Distributed Computing (JPDC)",
+      "year": 2021,
+      "type": "journal",
+      "status": "published",
+      "category": "Graph Machine Learning",
+      "keywords": [
+        "Graph Neural Networks",
+        "Parallel Computing"
+      ],
+      "award": "",
+      "url": "https://arxiv.org/abs/2010.03166",
+      "note": ""
+    },
+    {
+      "id": "zeng2020graphsaint",
+      "title": "GraphSAINT: Graph Sampling Based Inductive Learning Method",
+      "authors": [
+        "H. Zeng",
+        "H. Zhou",
+        "A. Srivastava",
+        "R. Kannan",
+        "V. K. Prasanna"
+      ],
+      "venue": "International Conference on Learning Representations (ICLR)",
+      "year": 2020,
+      "type": "conference",
+      "status": "published",
+      "category": "Graph Machine Learning",
+      "keywords": [
+        "Graph Neural Networks"
+      ],
+      "award": "",
+      "url": "https://arxiv.org/abs/1907.04931",
+      "note": ""
+    },
+    {
+      "id": "zeng2019accurate",
+      "title": "Accurate, Efficient and Scalable Graph Embedding",
+      "authors": [
+        "H. Zeng",
+        "H. Zhou",
+        "A. Srivastava",
+        "R. Kannan",
+        "V. K. Prasanna"
+      ],
+      "venue": "IEEE International Parallel and Distributed Processing Symposium (IPDPS)",
+      "year": 2019,
+      "type": "conference",
+      "status": "published",
+      "category": "Graph Machine Learning",
+      "keywords": [
+        "Graph Neural Networks",
+        "Parallel Computing"
+      ],
+      "award": "",
+      "url": "https://arxiv.org/abs/1810.11899",
+      "note": ""
+    },
+    {
+      "id": "lobay2026from",
+      "title": "From Wastewater to Infection Estimates: Incident COVID-19 Infections during Omicron in the U.S.",
+      "authors": [
+        "R. Lobay",
+        "A. Srivastava",
+        "D. J. McDonald"
+      ],
+      "venue": "Epidemics",
+      "year": 2026,
+      "type": "journal",
+      "status": "published",
+      "category": "Epidemic Modeling, Forecasting, and Evaluation",
+      "keywords": [
+        "Epidemics",
+        "Time-series",
+        "COVID-19"
+      ],
+      "award": "",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S1755436526000058",
+      "note": ""
+    },
+    {
+      "id": "aawar2025random",
+      "title": "Random Forest of Epidemiological Models for Influenza Forecasting",
+      "authors": [
+        "M. Al Aawar",
+        "A. Srivastava"
+      ],
+      "venue": "Epidemics",
+      "year": 2025,
+      "type": "journal",
+      "status": "published",
+      "category": "Epidemic Modeling, Forecasting, and Evaluation",
+      "keywords": [
+        "Epidemics",
+        "Influenza",
+        "Time-series"
+      ],
+      "award": "",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S1755436525000507",
+      "note": ""
+    },
+    {
+      "id": "srivastava2025aligning",
+      "title": "Aligning Time-series by Local Trends: Applications in Public Health",
+      "authors": [
+        "A. Srivastava"
+      ],
+      "venue": "39th Annual AAAI Conference on Artificial Intelligence (AAAI)",
+      "year": 2025,
+      "type": "conference",
+      "status": "published",
+      "category": "Epidemic Modeling, Forecasting, and Evaluation",
+      "keywords": [
+        "Epidemics",
+        "Time-series",
+        "Evaluation"
+      ],
+      "award": "Oral presentation (top 4.9%)",
+      "url": "https://arxiv.org/abs/2309.03579",
+      "note": ""
+    },
+    {
+      "id": "srivastava2024nowcasting",
+      "title": "Nowcasting Temporal Trends Using Indirect Surveys",
+      "authors": [
+        "A. Srivastava",
+        "J. M. Ramírez",
+        "S. Díaz-Aranda",
+        "J. Aguilar",
+        "A. Ortega",
+        "A. F. Anta",
+        "R. E. Lillo"
+      ],
+      "venue": "38th Annual AAAI Conference on Artificial Intelligence (AAAI)",
+      "year": 2024,
+      "type": "conference",
+      "status": "published",
+      "category": "Epidemic Modeling, Forecasting, and Evaluation",
+      "keywords": [
+        "Statistics",
+        "Time-series",
+        "Epidemics"
+      ],
+      "award": "2nd Best Paper Award, AI for Social Impact Track",
+      "url": "https://arxiv.org/abs/2307.06643",
+      "note": ""
+    },
+    {
+      "id": "srivastava2023variations",
+      "title": "The Variations of SIkJalpha Model for COVID-19 Forecasting and Scenario Projections",
+      "authors": [
+        "A. Srivastava"
+      ],
+      "venue": "Epidemics",
+      "year": 2023,
+      "type": "journal",
+      "status": "published",
+      "category": "Epidemic Modeling, Forecasting, and Evaluation",
+      "keywords": [
+        "Epidemics",
+        "COVID-19",
+        "Scenario Projections"
+      ],
+      "award": "",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S1755436523000658",
+      "note": ""
+    },
+    {
+      "id": "srivastava2022shape",
+      "title": "Shape-based Evaluation of Epidemic Forecasts",
+      "authors": [
+        "A. Srivastava",
+        "S. Singh",
+        "F. Lee"
+      ],
+      "venue": "IEEE International Conference on Big Data (BigData)",
+      "year": 2022,
+      "type": "conference",
+      "status": "published",
+      "category": "Epidemic Modeling, Forecasting, and Evaluation",
+      "keywords": [
+        "Epidemics",
+        "Time-series",
+        "Evaluation"
+      ],
+      "award": "",
+      "url": "https://arxiv.org/abs/2209.04035",
+      "note": ""
+    },
+    {
+      "id": "lu2022robust",
+      "title": "Robust Scenario Interpretation from Multi-model Prediction Efforts",
+      "authors": [
+        "Y. Lu",
+        "A. Srivastava"
+      ],
+      "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining, Undergraduate Consortium (KDD)",
+      "year": 2022,
+      "type": "conference",
+      "status": "published",
+      "category": "Epidemic Modeling, Forecasting, and Evaluation",
+      "keywords": [
+        "Ensembles",
+        "Statistics",
+        "Scenario Projections"
+      ],
+      "award": "",
+      "url": "https://arxiv.org/abs/2208.05075",
+      "note": ""
+    },
+    {
+      "id": "srivastava2022epibench",
+      "title": "The EpiBench Platform to Propel AI/ML-based Epidemic Forecasting: A Prototype Demonstration Reaching Human Expert-level Performance",
+      "authors": [
+        "A. Srivastava",
+        "T. Xu",
+        "V. K. Prasanna"
+      ],
+      "venue": "AI for Disease Surveillance and Pandemic Intelligence, Springer Studies in Computational Intelligence",
+      "year": 2022,
+      "type": "chapter",
+      "status": "published",
+      "category": "Epidemic Modeling, Forecasting, and Evaluation",
+      "keywords": [
+        "Epidemics",
+        "Time-series",
+        "Evaluation"
+      ],
+      "award": "",
+      "url": "https://arxiv.org/abs/2102.02842",
+      "note": ""
+    },
+    {
+      "id": "srivastava2020data",
+      "title": "Data-driven Identification of Number of Unreported Cases for COVID-19: Bounds and Limitations",
+      "authors": [
+        "A. Srivastava",
+        "V. K. Prasanna"
+      ],
+      "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining, Health Day Track (KDD)",
+      "year": 2020,
+      "type": "conference",
+      "status": "published",
+      "category": "Epidemic Modeling, Forecasting, and Evaluation",
+      "keywords": [
+        "Epidemics",
+        "COVID-19",
+        "Algorithms"
+      ],
+      "award": "",
+      "url": "https://arxiv.org/abs/2006.02127",
+      "note": ""
+    },
+    {
+      "id": "srivastava2020fast",
+      "title": "Fast and Accurate Forecasting of COVID-19 Deaths Using the SIkJα Model",
+      "authors": [
+        "A. Srivastava",
+        "T. Xu",
+        "V. K. Prasanna"
+      ],
+      "venue": "arXiv:2007.05180",
+      "year": 2020,
+      "type": "preprint",
+      "status": "preprint",
+      "category": "Epidemic Modeling, Forecasting, and Evaluation",
+      "keywords": [
+        "Epidemics",
+        "COVID-19",
+        "Time-series"
+      ],
+      "award": "",
+      "url": "https://arxiv.org/abs/2007.05180",
+      "note": ""
+    },
+    {
+      "id": "srivastava2020learning",
+      "title": "Learning to Forecast and Forecasting to Learn from the COVID-19 Pandemic",
+      "authors": [
+        "A. Srivastava",
+        "V. K. Prasanna"
+      ],
+      "venue": "arXiv:2004.11372",
+      "year": 2020,
+      "type": "preprint",
+      "status": "preprint",
+      "category": "Epidemic Modeling, Forecasting, and Evaluation",
+      "keywords": [
+        "Epidemics",
+        "COVID-19",
+        "Time-series"
+      ],
+      "award": "",
+      "url": "https://arxiv.org/abs/2004.11372",
+      "note": ""
+    },
+    {
+      "id": "mathis2024evaluation",
+      "title": "Evaluation of FluSight Influenza Forecasting in the 2021–22 and 2022–23 Seasons with a New Target: Laboratory-confirmed Influenza Hospitalizations",
+      "authors": [
+        "S. M. Mathis",
+        "A. Srivastava",
+        "et al."
+      ],
+      "venue": "Nature Communications",
+      "year": 2024,
+      "type": "journal",
+      "status": "published",
+      "category": "Multi-model Consortium Studies",
+      "keywords": [
+        "Epidemics",
+        "Influenza",
+        "Ensembles"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "lopez2024challenges",
+      "title": "Challenges of COVID-19 Case Forecasting in the US, 2020–2021",
+      "authors": [
+        "V. K. Lopez",
+        "A. Srivastava",
+        "et al."
+      ],
+      "venue": "PLOS Computational Biology",
+      "year": 2024,
+      "type": "journal",
+      "status": "published",
+      "category": "Multi-model Consortium Studies",
+      "keywords": [
+        "Epidemics",
+        "COVID-19",
+        "Ensembles"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "howerton2023evaluation",
+      "title": "Evaluation of the US COVID-19 Scenario Modeling Hub for Informing Pandemic Response under Uncertainty",
+      "authors": [
+        "E. Howerton",
+        "A. Srivastava",
+        "et al."
+      ],
+      "venue": "Nature Communications",
+      "year": 2023,
+      "type": "journal",
+      "status": "published",
+      "category": "Multi-model Consortium Studies",
+      "keywords": [
+        "Epidemics",
+        "COVID-19",
+        "Ensembles",
+        "Scenario Projections"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "borchering2023impact",
+      "title": "Impact of SARS-CoV-2 Vaccination of Children Ages 5–11 Years on COVID-19 Disease Burden and Resilience to New Variants in the United States, November 2021–March 2022: A Multi-model Study",
+      "authors": [
+        "R. K. Borchering",
+        "A. Srivastava",
+        "et al."
+      ],
+      "venue": "The Lancet Regional Health – Americas",
+      "year": 2023,
+      "type": "journal",
+      "status": "published",
+      "category": "Multi-model Consortium Studies",
+      "keywords": [
+        "Epidemics",
+        "COVID-19",
+        "Scenario Projections"
+      ],
+      "award": "",
+      "url": "https://linkinghub.elsevier.com/retrieve/pii/S2667193X22002150",
+      "note": ""
+    },
+    {
+      "id": "sherratt2023predictive",
+      "title": "Predictive Performance of Multi-model Ensemble Forecasts of COVID-19 across European Nations",
+      "authors": [
+        "K. Sherratt",
+        "A. Srivastava",
+        "et al."
+      ],
+      "venue": "eLife",
+      "year": 2023,
+      "type": "journal",
+      "status": "published",
+      "category": "Multi-model Consortium Studies",
+      "keywords": [
+        "Epidemics",
+        "COVID-19",
+        "Ensembles"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "sherratt2023characterising",
+      "title": "Characterising Information Loss due to Aggregating Epidemic Model Outputs",
+      "authors": [
+        "K. Sherratt",
+        "A. Srivastava",
+        "et al."
+      ],
+      "venue": "medRxiv",
+      "year": 2023,
+      "type": "preprint",
+      "status": "preprint",
+      "category": "Multi-model Consortium Studies",
+      "keywords": [
+        "Epidemics",
+        "Ensembles"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "cramer2022evaluation",
+      "title": "Evaluation of Individual and Ensemble Probabilistic Forecasts of COVID-19 Mortality in the United States",
+      "authors": [
+        "E. Y. Cramer",
+        "A. Srivastava",
+        "et al."
+      ],
+      "venue": "Proceedings of the National Academy of Sciences (PNAS)",
+      "year": 2022,
+      "type": "journal",
+      "status": "published",
+      "category": "Multi-model Consortium Studies",
+      "keywords": [
+        "Epidemics",
+        "COVID-19",
+        "Ensembles"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "truelove2022projected",
+      "title": "Projected Resurgence of COVID-19 in the United States in July–December 2021 Resulting from the Increased Transmissibility of the Delta Variant and Faltering Vaccination",
+      "authors": [
+        "S. Truelove",
+        "A. Srivastava",
+        "et al."
+      ],
+      "venue": "eLife",
+      "year": 2022,
+      "type": "journal",
+      "status": "published",
+      "category": "Multi-model Consortium Studies",
+      "keywords": [
+        "Epidemics",
+        "COVID-19",
+        "Scenario Projections"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "bracher2022national",
+      "title": "National and Subnational Short-term Forecasting of COVID-19 in Germany and Poland during Early 2021",
+      "authors": [
+        "J. Bracher",
+        "A. Srivastava",
+        "et al."
+      ],
+      "venue": "Communications Medicine",
+      "year": 2022,
+      "type": "journal",
+      "status": "published",
+      "category": "Multi-model Consortium Studies",
+      "keywords": [
+        "Epidemics",
+        "COVID-19",
+        "Ensembles"
+      ],
+      "award": "",
+      "url": "https://www.nature.com/articles/s43856-022-00191-8",
+      "note": ""
+    },
+    {
+      "id": "bracher2021pre",
+      "title": "A Pre-registered Short-term Forecasting Study of COVID-19 in Germany and Poland during the Second Wave",
+      "authors": [
+        "J. Bracher",
+        "A. Srivastava",
+        "et al."
+      ],
+      "venue": "Nature Communications",
+      "year": 2021,
+      "type": "journal",
+      "status": "published",
+      "category": "Multi-model Consortium Studies",
+      "keywords": [
+        "Epidemics",
+        "COVID-19",
+        "Ensembles"
+      ],
+      "award": "",
+      "url": "https://www.nature.com/articles/s41467-021-25207-0",
+      "note": ""
+    },
+    {
+      "id": "borchering2021modeling",
+      "title": "Modeling of Future COVID-19 Cases, Hospitalizations, and Deaths, by Vaccination Rates and Nonpharmaceutical Intervention Scenarios — United States, April–September 2021",
+      "authors": [
+        "R. K. Borchering",
+        "A. Srivastava",
+        "et al."
+      ],
+      "venue": "Morbidity and Mortality Weekly Report (MMWR)",
+      "year": 2021,
+      "type": "journal",
+      "status": "published",
+      "category": "Multi-model Consortium Studies",
+      "keywords": [
+        "Epidemics",
+        "COVID-19",
+        "Scenario Projections"
+      ],
+      "award": "",
+      "url": "https://www.cdc.gov/mmwr/volumes/70/wr/mm7019e3.htm",
+      "note": ""
+    },
+    {
+      "id": "srivastava2026submodular",
+      "title": "Submodular Maximization under Supermodular Constraint: Greedy Guarantees",
+      "authors": [
+        "A. Srivastava",
+        "S.-H. Teng"
+      ],
+      "venue": "32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
+      "year": 2026,
+      "type": "conference",
+      "status": "published",
+      "category": "Algorithms, Network Diffusion, and Optimization",
+      "keywords": [
+        "Algorithms",
+        "Submodular Optimization"
+      ],
+      "award": "Best Paper Runner-Up",
+      "url": "https://dl.acm.org/doi/10.1145/3770855.3818123",
+      "note": ""
+    },
+    {
+      "id": "srivastava2022computational",
+      "title": "Computational Models for Cascades in Massive Graphs: How to Spread a Rumor in Parallel",
+      "authors": [
+        "A. Srivastava",
+        "C. Chelmis",
+        "V. K. Prasanna"
+      ],
+      "venue": "Parallel Graph Algorithms (D. A. Bader, ed.), Chapman and Hall/CRC",
+      "year": 2022,
+      "type": "chapter",
+      "status": "accepted",
+      "category": "Algorithms, Network Diffusion, and Optimization",
+      "keywords": [
+        "Network Science",
+        "Social Influence",
+        "Parallel Computing"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "srivastava2019recant",
+      "title": "RecANt: Network-based Recruitment for Active Fake News Correction",
+      "authors": [
+        "A. Srivastava",
+        "R. Kannan",
+        "C. Chelmis",
+        "V. K. Prasanna"
+      ],
+      "venue": "IEEE International Conference on Big Data (BigData)",
+      "year": 2019,
+      "type": "conference",
+      "status": "published",
+      "category": "Algorithms, Network Diffusion, and Optimization",
+      "keywords": [
+        "Algorithms",
+        "Network Science",
+        "Social Influence"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "noormohammadpour2019optimizing",
+      "title": "Optimizing Inter-Datacenter Tail Flow Completion Times using Best Worst-case Routing",
+      "authors": [
+        "M. Noormohammadpour",
+        "A. Srivastava",
+        "C. S. Raghavendra"
+      ],
+      "venue": "57th Annual Allerton Conference on Communication, Control, and Computing",
+      "year": 2019,
+      "type": "conference",
+      "status": "published",
+      "category": "Algorithms, Network Diffusion, and Optimization",
+      "keywords": [
+        "Algorithms",
+        "Networking"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "srivastava2019minimizing",
+      "title": "Minimizing Cost of Smart Grid Operations by Scheduling Mobile Energy Storage Systems",
+      "authors": [
+        "A. Srivastava",
+        "S. R. Kuppannagari",
+        "R. Kannan",
+        "V. K. Prasanna"
+      ],
+      "venue": "IEEE Letters of the Computer Society",
+      "year": 2019,
+      "type": "journal",
+      "status": "published",
+      "category": "Algorithms, Network Diffusion, and Optimization",
+      "keywords": [
+        "Algorithms",
+        "Smart Grids"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "noormohammadpour2018minimizing",
+      "title": "On Minimizing the Completion Times of Long Flows over Inter-Datacenter WAN",
+      "authors": [
+        "M. Noormohammadpour",
+        "A. Srivastava",
+        "C. S. Raghavendra"
+      ],
+      "venue": "IEEE Communications Letters",
+      "year": 2018,
+      "type": "journal",
+      "status": "published",
+      "category": "Algorithms, Network Diffusion, and Optimization",
+      "keywords": [
+        "Algorithms",
+        "Networking"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "srivastava2018computing",
+      "title": "Computing Cascades: How to Spread Rumors, Win Campaigns, Stop Violence and Predict Epidemics",
+      "authors": [
+        "A. Srivastava"
+      ],
+      "venue": "Ph.D. Thesis, University of Southern California",
+      "year": 2018,
+      "type": "thesis",
+      "status": "published",
+      "category": "Algorithms, Network Diffusion, and Optimization",
+      "keywords": [
+        "Algorithms",
+        "Network Science",
+        "Social Influence"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "srivastava2018factcheck",
+      "title": "FActCheck: Keeping Activation of Fake News at Check",
+      "authors": [
+        "A. Srivastava",
+        "R. Kannan",
+        "C. Chelmis",
+        "V. K. Prasanna"
+      ],
+      "venue": "17th International Conference on Autonomous Agents and Multiagent Systems (AAMAS)",
+      "year": 2018,
+      "type": "conference",
+      "status": "published",
+      "category": "Algorithms, Network Diffusion, and Optimization",
+      "keywords": [
+        "Algorithms",
+        "Network Science",
+        "Social Influence"
+      ],
+      "award": "",
+      "url": "https://par.nsf.gov/servlets/purl/10067599",
+      "note": ""
+    },
+    {
+      "id": "srivastava2016mining",
+      "title": "Mining Large Dense Subgraphs",
+      "authors": [
+        "A. Srivastava",
+        "C. Chelmis",
+        "V. K. Prasanna"
+      ],
+      "venue": "25th International Conference Companion on World Wide Web (WWW)",
+      "year": 2016,
+      "type": "conference",
+      "status": "published",
+      "category": "Algorithms, Network Diffusion, and Optimization",
+      "keywords": [
+        "Algorithms",
+        "Network Science"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "srivastava2016computing",
+      "title": "Computing Competing Cascades on Signed Networks",
+      "authors": [
+        "A. Srivastava",
+        "C. Chelmis",
+        "V. K. Prasanna"
+      ],
+      "venue": "Social Network Analysis and Mining (SNAM)",
+      "year": 2016,
+      "type": "journal",
+      "status": "published",
+      "category": "Algorithms, Network Diffusion, and Optimization",
+      "keywords": [
+        "Algorithms",
+        "Network Science",
+        "Social Influence"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "srivastava2015social",
+      "title": "Social Influence Computation and Maximization in Signed Networks with Competing Cascades",
+      "authors": [
+        "A. Srivastava",
+        "C. Chelmis",
+        "V. K. Prasanna"
+      ],
+      "venue": "IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)",
+      "year": 2015,
+      "type": "conference",
+      "status": "published",
+      "category": "Algorithms, Network Diffusion, and Optimization",
+      "keywords": [
+        "Algorithms",
+        "Network Science",
+        "Social Influence"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "srivastava2015unified",
+      "title": "The Unified Model of Social Influence and its Application in Influence Maximization",
+      "authors": [
+        "A. Srivastava",
+        "C. Chelmis",
+        "V. K. Prasanna"
+      ],
+      "venue": "Social Network Analysis and Mining (SNAM)",
+      "year": 2015,
+      "type": "journal",
+      "status": "published",
+      "category": "Algorithms, Network Diffusion, and Optimization",
+      "keywords": [
+        "Algorithms",
+        "Network Science",
+        "Social Influence"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "chelmis2014computational",
+      "title": "Computational Models of Technology Adoption at the Workplace",
+      "authors": [
+        "C. Chelmis",
+        "A. Srivastava",
+        "V. K. Prasanna"
+      ],
+      "venue": "Social Network Analysis and Mining (SNAM)",
+      "year": 2014,
+      "type": "journal",
+      "status": "published",
+      "category": "Algorithms, Network Diffusion, and Optimization",
+      "keywords": [
+        "Network Science",
+        "Social Influence"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "srivastava2014influence",
+      "title": "Influence in Social Networks: A Unified Model?",
+      "authors": [
+        "A. Srivastava",
+        "C. Chelmis",
+        "V. K. Prasanna"
+      ],
+      "venue": "IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)",
+      "year": 2014,
+      "type": "conference",
+      "status": "published",
+      "category": "Algorithms, Network Diffusion, and Optimization",
+      "keywords": [
+        "Network Science",
+        "Social Influence"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "ghosh2013understanding",
+      "title": "Understanding Evolution of Inter-group Relationships using Bipartite Networks",
+      "authors": [
+        "S. Ghosh",
+        "S. Saha",
+        "A. Srivastava",
+        "T. Krueger",
+        "N. Ganguly",
+        "A. Mukherjee"
+      ],
+      "venue": "IEEE Journal on Selected Areas in Communications (JSAC)",
+      "year": 2013,
+      "type": "journal",
+      "status": "published",
+      "category": "Algorithms, Network Diffusion, and Optimization",
+      "keywords": [
+        "Network Science"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "ganguly2012degree",
+      "title": "Degree Distributions of Evolving Alphabetic Bipartite Networks and their Projections",
+      "authors": [
+        "N. Ganguly",
+        "S. Ghosh",
+        "T. Krueger",
+        "A. Srivastava"
+      ],
+      "venue": "Theoretical Computer Science (TCS)",
+      "year": 2012,
+      "type": "journal",
+      "status": "published",
+      "category": "Algorithms, Network Diffusion, and Optimization",
+      "keywords": [
+        "Network Science"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "ghosh2012effects",
+      "title": "Effects of a Soft Cut-off on Node-Degree in the Twitter Social Network",
+      "authors": [
+        "S. Ghosh",
+        "A. Srivastava",
+        "N. Ganguly"
+      ],
+      "venue": "Computer Communications",
+      "year": 2012,
+      "type": "journal",
+      "status": "published",
+      "category": "Algorithms, Network Diffusion, and Optimization",
+      "keywords": [
+        "Network Science"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "ghosh2011assessing",
+      "title": "Assessing the Effects of a Soft Cut-off in the Twitter Social Network",
+      "authors": [
+        "S. Ghosh",
+        "A. Srivastava",
+        "N. Ganguly"
+      ],
+      "venue": "IFIP Networking",
+      "year": 2011,
+      "type": "conference",
+      "status": "published",
+      "category": "Algorithms, Network Diffusion, and Optimization",
+      "keywords": [
+        "Network Science"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "fulginiti2025suicide",
+      "title": "Suicide-Related Disclosure Intention Among Active-Duty Servicemembers: A Generalized Linear Mixed-Model Tree Analysis",
+      "authors": [
+        "A. Fulginiti",
+        "S. K. Saba",
+        "A. P. Hande",
+        "N. Barr",
+        "L. Petry",
+        "A. Srivastava",
+        "J. A. Cederbaum",
+        "C. Castro",
+        "L. Ross",
+        "A. Arora",
+        "E. Rice"
+      ],
+      "venue": "Journal of the Society for Social Work and Research (JSSWR)",
+      "year": 2025,
+      "type": "journal",
+      "status": "published",
+      "category": "AI for Social Good and Health",
+      "keywords": [
+        "Social Good",
+        "Mental Health"
+      ],
+      "award": "",
+      "url": "https://www.journals.uchicago.edu/doi/10.1086/739619",
+      "note": ""
+    },
+    {
+      "id": "maharana2023acoustic",
+      "title": "Acoustic-to-Articulatory Inversion for Dysarthric Speech: Are Pre-trained Self-supervised Representations Favorable?",
+      "authors": [
+        "S. K. Maharana",
+        "K. K. Adidam",
+        "S. Nandi",
+        "A. Srivastava"
+      ],
+      "venue": "arXiv:2309.01108",
+      "year": 2023,
+      "type": "preprint",
+      "status": "preprint",
+      "category": "AI for Social Good and Health",
+      "keywords": [
+        "Machine Learning",
+        "Health"
+      ],
+      "award": "",
+      "url": "https://arxiv.org/abs/2309.01108",
+      "note": ""
+    },
+    {
+      "id": "petering2021examining",
+      "title": "Examining Impacts of a Peer-based Mindfulness and Yoga Intervention to Reduce Interpersonal Violence among Young Adults Experiencing Homelessness",
+      "authors": [
+        "R. Petering",
+        "N. Barr",
+        "A. Srivastava",
+        "L. Onasch-Vera",
+        "N. Thompson",
+        "E. Rice"
+      ],
+      "venue": "Journal of the Society for Social Work and Research (JSSWR)",
+      "year": 2021,
+      "type": "journal",
+      "status": "published",
+      "category": "AI for Social Good and Health",
+      "keywords": [
+        "Social Good",
+        "Interventions"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "srivastava2019network",
+      "title": "Network-based Intervention Strategies to Reduce Violence among Homeless",
+      "authors": [
+        "A. Srivastava",
+        "R. Petering",
+        "N. Barr",
+        "R. Kannan",
+        "E. Rice",
+        "V. K. Prasanna"
+      ],
+      "venue": "Social Network Analysis and Mining (SNAM)",
+      "year": 2019,
+      "type": "journal",
+      "status": "published",
+      "category": "AI for Social Good and Health",
+      "keywords": [
+        "Social Good",
+        "Network Science",
+        "Interventions"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "xiong2019predicting",
+      "title": "On Predicting Crime with Heterogeneous Spatial Patterns: Methods and Evaluation",
+      "authors": [
+        "C. Xiong",
+        "A. Srivastava",
+        "R. Kannan",
+        "O. Damle",
+        "V. K. Prasanna",
+        "E. Southers"
+      ],
+      "venue": "27th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems",
+      "year": 2019,
+      "type": "conference",
+      "status": "published",
+      "category": "AI for Social Good and Health",
+      "keywords": [
+        "Machine Learning",
+        "Time-series",
+        "Crime"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "srivastava2018how",
+      "title": "How to Stop Violence among Homeless: Extension of Voter Model and Intervention Strategies",
+      "authors": [
+        "A. Srivastava",
+        "R. Petering",
+        "R. Kannan",
+        "E. Rice",
+        "V. K. Prasanna"
+      ],
+      "venue": "IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)",
+      "year": 2018,
+      "type": "conference",
+      "status": "published",
+      "category": "AI for Social Good and Health",
+      "keywords": [
+        "Social Good",
+        "Network Science",
+        "Interventions"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "srivastava2018minimizing",
+      "title": "Minimizing Violence in Homeless Youth",
+      "authors": [
+        "A. Srivastava",
+        "R. Petering",
+        "M. Misyrlis"
+      ],
+      "venue": "Artificial Intelligence and Social Work (M. Tambe and E. Rice, eds.), Cambridge University Press",
+      "year": 2018,
+      "type": "chapter",
+      "status": "published",
+      "category": "AI for Social Good and Health",
+      "keywords": [
+        "Social Good",
+        "Network Science",
+        "Interventions"
+      ],
+      "award": "",
+      "url": "https://books.google.com/books?id=eqRyDwAAQBAJ",
+      "note": ""
+    },
+    {
+      "id": "misyrlis2017spatio",
+      "title": "Spatio-Temporal Modeling of Criminal Activity",
+      "authors": [
+        "M. Misyrlis",
+        "C. M. Cheung",
+        "A. Srivastava",
+        "R. Kannan",
+        "V. K. Prasanna"
+      ],
+      "venue": "2nd International Workshop on Social Sensing (SocialSens)",
+      "year": 2017,
+      "type": "workshop",
+      "status": "published",
+      "category": "AI for Social Good and Health",
+      "keywords": [
+        "Machine Learning",
+        "Time-series",
+        "Crime"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "zhang2022resemble",
+      "title": "ReSemble: Reinforced Ensemble Framework for Data Prefetching",
+      "authors": [
+        "P. Zhang",
+        "R. Kannan",
+        "A. Srivastava",
+        "V. K. Prasanna",
+        "A. V. Nori"
+      ],
+      "venue": "ACM/IEEE Supercomputing Conference (SC)",
+      "year": 2022,
+      "type": "conference",
+      "status": "published",
+      "category": "Machine Learning for Computer Systems",
+      "keywords": [
+        "Computer Systems",
+        "Reinforcement Learning",
+        "Prefetching"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "zhang2022fine",
+      "title": "Fine-grained Address Segmentation for Attention-based Variable-degree Prefetching",
+      "authors": [
+        "P. Zhang",
+        "A. Srivastava",
+        "A. V. Nori",
+        "R. Kannan",
+        "V. K. Prasanna"
+      ],
+      "venue": "19th ACM International Conference on Computing Frontiers (CF)",
+      "year": 2022,
+      "type": "conference",
+      "status": "published",
+      "category": "Machine Learning for Computer Systems",
+      "keywords": [
+        "Computer Systems",
+        "Prefetching"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "wang2021monte",
+      "title": "Monte Carlo Tree Search for Task Mapping onto Heterogeneous Platforms",
+      "authors": [
+        "T. Wang",
+        "W. Chang",
+        "A. Srivastava",
+        "R. Kannan",
+        "V. K. Prasanna"
+      ],
+      "venue": "IEEE International Conference on High Performance Computing, Data, and Analytics (HiPC)",
+      "year": 2021,
+      "type": "conference",
+      "status": "published",
+      "category": "Machine Learning for Computer Systems",
+      "keywords": [
+        "Computer Systems",
+        "Reinforcement Learning"
+      ],
+      "award": "",
+      "url": "https://ieeexplore.ieee.org/document/9680333/",
+      "note": ""
+    },
+    {
+      "id": "zhang2021c",
+      "title": "C-MemMAP: Clustering-driven Compact, Adaptable, and Generalizable Meta-LSTM Models for Memory Access Prediction",
+      "authors": [
+        "P. Zhang",
+        "A. Srivastava",
+        "T. Wang",
+        "C. A. F. De Rose",
+        "R. Kannan",
+        "V. K. Prasanna"
+      ],
+      "venue": "International Journal of Data Science and Analytics (JDSA)",
+      "year": 2021,
+      "type": "journal",
+      "status": "published",
+      "category": "Machine Learning for Computer Systems",
+      "keywords": [
+        "Computer Systems",
+        "Prefetching",
+        "Time-series"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "zhang2021transformap",
+      "title": "TransforMAP: Transformer for Memory Access Prediction",
+      "authors": [
+        "P. Zhang",
+        "A. Srivastava",
+        "A. V. Nori",
+        "R. Kannan",
+        "V. K. Prasanna"
+      ],
+      "venue": "ISCA Workshop on ML for Computer Architecture and Systems",
+      "year": 2021,
+      "type": "workshop",
+      "status": "published",
+      "category": "Machine Learning for Computer Systems",
+      "keywords": [
+        "Computer Systems",
+        "Prefetching"
+      ],
+      "award": "",
+      "url": "https://arxiv.org/abs/2205.14778",
+      "note": ""
+    },
+    {
+      "id": "srivastava2020towards",
+      "title": "Towards High Performance, Portability, and Productivity: Lightweight Augmented Neural Networks for Performance Prediction",
+      "authors": [
+        "A. Srivastava",
+        "N. Zhang",
+        "R. Kannan",
+        "V. K. Prasanna"
+      ],
+      "venue": "IEEE International Conference on High Performance Computing, Data, and Analytics (HiPC)",
+      "year": 2020,
+      "type": "conference",
+      "status": "published",
+      "category": "Machine Learning for Computer Systems",
+      "keywords": [
+        "Computer Systems",
+        "Compilers"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "imes2020compiler",
+      "title": "Compiler Abstractions and Runtime for Extreme-scale SAR and CFD Workloads",
+      "authors": [
+        "C. Imes",
+        "A. Colin",
+        "N. Zhang",
+        "A. Srivastava",
+        "V. K. Prasanna",
+        "J. P. Walters"
+      ],
+      "venue": "IEEE/ACM 5th International Workshop on Extreme Scale Programming Models and Middleware (ESPM2)",
+      "year": 2020,
+      "type": "workshop",
+      "status": "published",
+      "category": "Machine Learning for Computer Systems",
+      "keywords": [
+        "Computer Systems",
+        "Compilers"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "zhang2020raop",
+      "title": "RAOP: Recurrent Neural Network Augmented Offset Prefetcher",
+      "authors": [
+        "P. Zhang",
+        "A. Srivastava",
+        "B. Brooks",
+        "R. Kannan",
+        "V. K. Prasanna"
+      ],
+      "venue": "International Symposium on Memory Systems (MEMSYS)",
+      "year": 2020,
+      "type": "conference",
+      "status": "published",
+      "category": "Machine Learning for Computer Systems",
+      "keywords": [
+        "Computer Systems",
+        "Prefetching"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "wang2020framework",
+      "title": "A Framework for Task Mapping onto Heterogeneous Platforms",
+      "authors": [
+        "T. Wang",
+        "A. Srivastava",
+        "V. K. Prasanna"
+      ],
+      "venue": "IEEE High Performance Extreme Computing Conference (HPEC)",
+      "year": 2020,
+      "type": "conference",
+      "status": "published",
+      "category": "Machine Learning for Computer Systems",
+      "keywords": [
+        "Computer Systems",
+        "Reinforcement Learning"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "srivastava2020memmap",
+      "title": "MemMAP: Compact and Generalizable Meta-LSTM Models for Memory Access Prediction",
+      "authors": [
+        "A. Srivastava",
+        "T. Wang",
+        "P. Zhang",
+        "C. A. F. De Rose",
+        "R. Kannan",
+        "V. K. Prasanna"
+      ],
+      "venue": "Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD)",
+      "year": 2020,
+      "type": "conference",
+      "status": "published",
+      "category": "Machine Learning for Computer Systems",
+      "keywords": [
+        "Computer Systems",
+        "Prefetching",
+        "Time-series"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "srivastava2019predicting",
+      "title": "Predicting Memory Accesses: The Road to Compact ML-driven Prefetcher",
+      "authors": [
+        "A. Srivastava",
+        "A. Lazaris",
+        "B. Brooks",
+        "R. Kannan",
+        "V. K. Prasanna"
+      ],
+      "venue": "International Symposium on Memory Systems (MEMSYS)",
+      "year": 2019,
+      "type": "conference",
+      "status": "published",
+      "category": "Machine Learning for Computer Systems",
+      "keywords": [
+        "Computer Systems",
+        "Prefetching"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "zhou2019design",
+      "title": "Design and Implementation of Knowledge Base for Runtime Management of Software Defined Hardware",
+      "authors": [
+        "H. Zhou",
+        "A. Srivastava",
+        "R. Kannan",
+        "V. K. Prasanna"
+      ],
+      "venue": "IEEE High Performance Extreme Computing Conference (HPEC)",
+      "year": 2019,
+      "type": "conference",
+      "status": "published",
+      "category": "Machine Learning for Computer Systems",
+      "keywords": [
+        "Computer Systems"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "goel2020parallel",
+      "title": "Parallel Totally Induced Edge Sampling on FPGAs",
+      "authors": [
+        "A. Goel",
+        "S. R. Kuppannagari",
+        "Y. Yang",
+        "A. Srivastava",
+        "V. K. Prasanna"
+      ],
+      "venue": "Parallel Computing: Technology Trends",
+      "year": 2020,
+      "type": "chapter",
+      "status": "published",
+      "category": "Parallel Computing and FPGA",
+      "keywords": [
+        "FPGA",
+        "Algorithms"
+      ],
+      "award": "",
+      "url": "https://par.nsf.gov/servlets/purl/10144118",
+      "note": ""
+    },
+    {
+      "id": "meng2020qtaccel",
+      "title": "QTAccel: A Generic FPGA based Design for Q-Table based Reinforcement Learning Accelerators",
+      "authors": [
+        "Y. Meng",
+        "S. R. Kuppannagari",
+        "R. Rajat",
+        "A. Srivastava",
+        "R. Kannan",
+        "V. K. Prasanna"
+      ],
+      "venue": "IEEE IPDPS Workshops (IPDPSW); abstract at ACM/SIGDA FPGA 2020",
+      "year": 2020,
+      "type": "workshop",
+      "status": "published",
+      "category": "Parallel Computing and FPGA",
+      "keywords": [
+        "FPGA",
+        "Reinforcement Learning"
+      ],
+      "award": "",
+      "url": "https://par.nsf.gov/servlets/purl/10196432",
+      "note": ""
+    },
+    {
+      "id": "niu2020reuse",
+      "title": "Reuse Kernels or Activations? A Flexible Dataflow for Low-latency Spectral CNN Acceleration",
+      "authors": [
+        "Y. Niu",
+        "R. Kannan",
+        "A. Srivastava",
+        "V. K. Prasanna"
+      ],
+      "venue": "ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (FPGA)",
+      "year": 2020,
+      "type": "conference",
+      "status": "published",
+      "category": "Parallel Computing and FPGA",
+      "keywords": [
+        "FPGA",
+        "Machine Learning"
+      ],
+      "award": "",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3373087.3375302",
+      "note": ""
+    },
+    {
+      "id": "yang2020fasthash",
+      "title": "FASTHash: FPGA-Based High Throughput Parallel Hash Table",
+      "authors": [
+        "Y. Yang",
+        "S. R. Kuppannagari",
+        "A. Srivastava",
+        "R. Kannan",
+        "V. K. Prasanna"
+      ],
+      "venue": "ISC High Performance",
+      "year": 2020,
+      "type": "conference",
+      "status": "published",
+      "category": "Parallel Computing and FPGA",
+      "keywords": [
+        "FPGA",
+        "Parallel Computing"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "niu2019spec2",
+      "title": "SPEC2: SPECtral SParsE CNN Accelerator on FPGAs",
+      "authors": [
+        "Y. Niu",
+        "H. Zeng",
+        "A. Srivastava",
+        "K. Lakhotia",
+        "R. Kannan",
+        "Y. Wang",
+        "V. K. Prasanna"
+      ],
+      "venue": "IEEE International Conference on High Performance Computing, Data, and Analytics (HiPC)",
+      "year": 2019,
+      "type": "conference",
+      "status": "published",
+      "category": "Parallel Computing and FPGA",
+      "keywords": [
+        "FPGA",
+        "Machine Learning"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "lakhotia2019parallel",
+      "title": "Parallel Edge-based Sampling for Static and Dynamic Graphs",
+      "authors": [
+        "K. Lakhotia",
+        "R. Kannan",
+        "A. Gaur",
+        "A. Srivastava",
+        "V. K. Prasanna"
+      ],
+      "venue": "16th ACM International Conference on Computing Frontiers (CF)",
+      "year": 2019,
+      "type": "conference",
+      "status": "published",
+      "category": "Parallel Computing and FPGA",
+      "keywords": [
+        "Parallel Computing",
+        "Algorithms"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "singapura2017oscar",
+      "title": "OSCAR: Optimizing SCrAtchpad Reuse for Graph Processing",
+      "authors": [
+        "S. G. Singapura",
+        "A. Srivastava",
+        "R. Kannan",
+        "V. K. Prasanna"
+      ],
+      "venue": "IEEE High Performance Extreme Computing Conference (HPEC)",
+      "year": 2017,
+      "type": "conference",
+      "status": "published",
+      "category": "Parallel Computing and FPGA",
+      "keywords": [
+        "Parallel Computing",
+        "Algorithms"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "srivastava2015hybrid",
+      "title": "A Hybrid Design for High Performance Large-scale Sorting on FPGA",
+      "authors": [
+        "A. Srivastava",
+        "R. Chen",
+        "V. K. Prasanna",
+        "C. Chelmis"
+      ],
+      "venue": "International Conference on ReConFigurable Computing and FPGAs (ReConFig)",
+      "year": 2015,
+      "type": "conference",
+      "status": "published",
+      "category": "Parallel Computing and FPGA",
+      "keywords": [
+        "FPGA",
+        "Parallel Computing"
+      ],
+      "award": "",
+      "url": "https://www.cs.albany.edu/~cchelmis/pubs/reconfig15.pdf",
+      "note": ""
+    },
+    {
+      "id": "yao2024task",
+      "title": "Task-Agnostic Federated Learning",
+      "authors": [
+        "Z. Yao",
+        "H. Nguyen",
+        "A. Srivastava",
+        "J. L. Ambite"
+      ],
+      "venue": "arXiv:2406.17235",
+      "year": 2024,
+      "type": "preprint",
+      "status": "preprint",
+      "category": "Other Machine Learning Applications",
+      "keywords": [
+        "Machine Learning",
+        "Federated Learning"
+      ],
+      "award": "",
+      "url": "https://arxiv.org/abs/2406.17235",
+      "note": ""
+    },
+    {
+      "id": "gray2022this",
+      "title": "\"This Bot Knows What I'm Talking About!\" Human-Inspired Laughter Classification Methods for Adaptive Robotic Comedians",
+      "authors": [
+        "C. Gray",
+        "T. Webster",
+        "B. Ozarowicz",
+        "Y. Chen",
+        "T. Bui",
+        "A. Srivastava",
+        "N. T. Fitter"
+      ],
+      "venue": "IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)",
+      "year": 2022,
+      "type": "conference",
+      "status": "published",
+      "category": "Other Machine Learning Applications",
+      "keywords": [
+        "Robotics",
+        "Machine Learning",
+        "Time-series"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "srivastava2021robot",
+      "title": "A Robot Walks into a Bar: Automatic Robot Joke Success Assessment",
+      "authors": [
+        "A. Srivastava",
+        "N. T. Fitter"
+      ],
+      "venue": "IEEE International Conference on Robotics and Automation (ICRA)",
+      "year": 2021,
+      "type": "conference",
+      "status": "published",
+      "category": "Other Machine Learning Applications",
+      "keywords": [
+        "Robotics",
+        "Machine Learning",
+        "Time-series"
+      ],
+      "award": "",
+      "url": "https://arxiv.org/abs/2205.02269",
+      "note": ""
+    },
+    {
+      "id": "cheung2020behind",
+      "title": "Behind-the-Meter Solar Generation Disaggregation at Varying Aggregation Levels Using Consumer Mixture Models",
+      "authors": [
+        "C. M. Cheung",
+        "S. R. Kuppannagari",
+        "A. Srivastava",
+        "R. Kannan",
+        "V. K. Prasanna"
+      ],
+      "venue": "IEEE Transactions on Sustainable Computing (T-SUSC)",
+      "year": 2020,
+      "type": "journal",
+      "status": "published",
+      "category": "Other Machine Learning Applications",
+      "keywords": [
+        "Smart Grids",
+        "Machine Learning"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "cheung2018behind",
+      "title": "Behind-the-Meter Solar Generation Disaggregation using Consumer Mixture Models",
+      "authors": [
+        "C. M. Cheung",
+        "W. Zhong",
+        "C. Xiong",
+        "A. Srivastava",
+        "R. Kannan",
+        "V. K. Prasanna"
+      ],
+      "venue": "IEEE SmartGridComm",
+      "year": 2018,
+      "type": "conference",
+      "status": "published",
+      "category": "Other Machine Learning Applications",
+      "keywords": [
+        "Smart Grids",
+        "Machine Learning",
+        "Time-series"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "cheung2015rapid",
+      "title": "Rapid Data Integration and Analysis for Upstream Oil and Gas Applications",
+      "authors": [
+        "C. M. Cheung",
+        "P. Goyal",
+        "G. Harris",
+        "O. Patri",
+        "A. Srivastava",
+        "et al."
+      ],
+      "venue": "SPE Annual Technical Conference and Exhibition",
+      "year": 2015,
+      "type": "conference",
+      "status": "published",
+      "category": "Other Machine Learning Applications",
+      "keywords": [
+        "Machine Learning",
+        "Smart Oilfields"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "srivastava2013graph",
+      "title": "A Graph-based Topic Extraction Method Enabling Simple Interactive Customization",
+      "authors": [
+        "A. Srivastava",
+        "A. J. Soto",
+        "E. Milios"
+      ],
+      "venue": "ACM Symposium on Document Engineering (DocEng)",
+      "year": 2013,
+      "type": "conference",
+      "status": "published",
+      "category": "Other Machine Learning Applications",
+      "keywords": [
+        "Text Mining",
+        "Network Science"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "srivastava2013text",
+      "title": "Text Clustering using One-mode Projection of Document-Word Bipartite Graphs",
+      "authors": [
+        "A. Srivastava",
+        "A. J. Soto",
+        "E. Milios"
+      ],
+      "venue": "28th Annual ACM Symposium on Applied Computing (SAC)",
+      "year": 2013,
+      "type": "conference",
+      "status": "published",
+      "category": "Other Machine Learning Applications",
+      "keywords": [
+        "Text Mining",
+        "Network Science"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    },
+    {
+      "id": "srivastava2012efficient",
+      "title": "Efficient Application of Gabor Filters with Nonlinear Support Vector Machines",
+      "authors": [
+        "A. Srivastava",
+        "P. Mohapatra",
+        "A. S. Mandal"
+      ],
+      "venue": "International Conference on Computing Sciences (ICCS)",
+      "year": 2012,
+      "type": "conference",
+      "status": "published",
+      "category": "Other Machine Learning Applications",
+      "keywords": [
+        "Machine Learning"
+      ],
+      "award": "",
+      "url": "",
+      "note": ""
+    }
+  ]
+}
