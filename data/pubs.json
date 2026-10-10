@@ -7,15 +7,15 @@
     ]
   },
   "categories": [
-    "Machine Learning for Scientific Discovery and Dynamical Systems",
-    "Graph Machine Learning",
+    "Machine Learning for Public Health and Sciences",
+    "Graph Machine Learning and other Foundational Work",
     "Epidemic Modeling, Forecasting, and Evaluation",
     "Multi-model Consortium Studies",
     "Algorithms, Network Diffusion, and Optimization",
-    "AI for Social Good and Health",
+    "AIgorithms for Social Good",
     "Machine Learning for Computer Systems",
     "Parallel Computing and FPGA",
-    "Other Machine Learning Applications"
+    "Miscellaneous"
   ],
   "types": [
     "conference",
@@ -44,7 +44,7 @@
       "year": 2026,
       "type": "conference",
       "status": "accepted",
-      "category": "Machine Learning for Scientific Discovery and Dynamical Systems",
+      "category": "Machine Learning for Public Health and Sciences",
       "keywords": [
         "Symbolic Regression",
         "Machine Learning"
@@ -63,7 +63,7 @@
       "year": 2026,
       "type": "preprint",
       "status": "preprint",
-      "category": "Machine Learning for Scientific Discovery and Dynamical Systems",
+      "category": "Machine Learning for Public Health and Sciences",
       "keywords": [
         "Surrogate Modeling",
         "Graph Neural Networks",
@@ -86,7 +86,7 @@
       "year": 2025,
       "type": "conference",
       "status": "published",
-      "category": "Machine Learning for Scientific Discovery and Dynamical Systems",
+      "category": "Graph Machine Learning and other Foundational Work",
       "keywords": [
         "Machine Learning",
         "Neural Architecture"
@@ -108,7 +108,7 @@
       "year": 2025,
       "type": "preprint",
       "status": "preprint",
-      "category": "Machine Learning for Scientific Discovery and Dynamical Systems",
+      "category": "Machine Learning for Public Health and Sciences",
       "keywords": [
         "Symbolic Regression",
         "Machine Learning"
@@ -129,7 +129,7 @@
       "year": 2024,
       "type": "workshop",
       "status": "published",
-      "category": "Machine Learning for Scientific Discovery and Dynamical Systems",
+      "category": "",
       "keywords": [
         "Machine Learning",
         "Neural Architecture"
@@ -149,7 +149,7 @@
       "year": 2023,
       "type": "journal",
       "status": "published",
-      "category": "Machine Learning for Scientific Discovery and Dynamical Systems",
+      "category": "Miscellaneous",
       "keywords": [
         "Dynamical Systems",
         "Causal Inference"
@@ -169,7 +169,7 @@
       "year": 2023,
       "type": "journal",
       "status": "published",
-      "category": "Machine Learning for Scientific Discovery and Dynamical Systems",
+      "category": "Miscellaneous",
       "keywords": [
         "Dynamical Systems"
       ],
@@ -188,7 +188,7 @@
       "year": 2026,
       "type": "conference",
       "status": "accepted",
-      "category": "Graph Machine Learning",
+      "category": "Machine Learning for Public Health and Sciences",
       "keywords": [
         "Graph Neural Networks",
         "Explainability",
@@ -209,7 +209,7 @@
       "year": 2025,
       "type": "preprint",
       "status": "preprint",
-      "category": "Graph Machine Learning",
+      "category": "Machine Learning for Public Health and Sciences",
       "keywords": [
         "Graph Neural Networks",
         "Epidemics"
@@ -230,7 +230,7 @@
       "year": 2025,
       "type": "preprint",
       "status": "preprint",
-      "category": "Graph Machine Learning",
+      "category": "",
       "keywords": [
         "Graph Neural Networks",
         "Social Good"
@@ -252,7 +252,7 @@
       "year": 2025,
       "type": "conference",
       "status": "published",
-      "category": "Graph Machine Learning",
+      "category": "Machine Learning for Public Health and Sciences",
       "keywords": [
         "Graph Neural Networks",
         "Epidemics",
@@ -273,7 +273,7 @@
       "year": 2023,
       "type": "conference",
       "status": "published",
-      "category": "Graph Machine Learning",
+      "category": "Graph Machine Learning and other Foundational Work",
       "keywords": [
         "Graph Neural Networks",
         "Brain Networks"
@@ -300,7 +300,7 @@
       "year": 2021,
       "type": "conference",
       "status": "published",
-      "category": "Graph Machine Learning",
+      "category": "Graph Machine Learning and other Foundational Work",
       "keywords": [
         "Graph Neural Networks"
       ],
@@ -322,7 +322,7 @@
       "year": 2021,
       "type": "journal",
       "status": "published",
-      "category": "Graph Machine Learning",
+      "category": "Graph Machine Learning and other Foundational Work",
       "keywords": [
         "Graph Neural Networks"
       ],
@@ -344,7 +344,7 @@
       "year": 2021,
       "type": "journal",
       "status": "published",
-      "category": "Graph Machine Learning",
+      "category": "Graph Machine Learning and other Foundational Work",
       "keywords": [
         "Graph Neural Networks",
         "Parallel Computing"
@@ -367,7 +367,7 @@
       "year": 2020,
       "type": "conference",
       "status": "published",
-      "category": "Graph Machine Learning",
+      "category": "Graph Machine Learning and other Foundational Work",
       "keywords": [
         "Graph Neural Networks"
       ],
@@ -389,7 +389,7 @@
       "year": 2019,
       "type": "conference",
       "status": "published",
-      "category": "Graph Machine Learning",
+      "category": "Graph Machine Learning and other Foundational Work",
       "keywords": [
         "Graph Neural Networks",
         "Parallel Computing"
@@ -431,7 +431,7 @@
       "year": 2025,
       "type": "journal",
       "status": "published",
-      "category": "Epidemic Modeling, Forecasting, and Evaluation",
+      "category": "Machine Learning for Public Health and Sciences",
       "keywords": [
         "Epidemics",
         "Influenza",
@@ -1283,7 +1283,7 @@
       "year": 2025,
       "type": "journal",
       "status": "published",
-      "category": "AI for Social Good and Health",
+      "category": "AIgorithms for Social Good",
       "keywords": [
         "Social Good",
         "Mental Health"
@@ -1305,7 +1305,7 @@
       "year": 2023,
       "type": "preprint",
       "status": "preprint",
-      "category": "AI for Social Good and Health",
+      "category": "Miscellaneous",
       "keywords": [
         "Machine Learning",
         "Health"
@@ -1329,7 +1329,7 @@
       "year": 2021,
       "type": "journal",
       "status": "published",
-      "category": "AI for Social Good and Health",
+      "category": "AIgorithms for Social Good",
       "keywords": [
         "Social Good",
         "Interventions"
@@ -1353,7 +1353,7 @@
       "year": 2019,
       "type": "journal",
       "status": "published",
-      "category": "AI for Social Good and Health",
+      "category": "AIgorithms for Social Good",
       "keywords": [
         "Social Good",
         "Network Science",
@@ -1378,7 +1378,7 @@
       "year": 2019,
       "type": "conference",
       "status": "published",
-      "category": "AI for Social Good and Health",
+      "category": "Miscellaneous",
       "keywords": [
         "Machine Learning",
         "Time-series",
@@ -1402,7 +1402,7 @@
       "year": 2018,
       "type": "conference",
       "status": "published",
-      "category": "AI for Social Good and Health",
+      "category": "AIgorithms for Social Good",
       "keywords": [
         "Social Good",
         "Network Science",
@@ -1424,7 +1424,7 @@
       "year": 2018,
       "type": "chapter",
       "status": "published",
-      "category": "AI for Social Good and Health",
+      "category": "AIgorithms for Social Good",
       "keywords": [
         "Social Good",
         "Network Science",
@@ -1448,7 +1448,7 @@
       "year": 2017,
       "type": "workshop",
       "status": "published",
-      "category": "AI for Social Good and Health",
+      "category": "Miscellaneous",
       "keywords": [
         "Machine Learning",
         "Time-series",
@@ -1932,7 +1932,7 @@
       "year": 2024,
       "type": "preprint",
       "status": "preprint",
-      "category": "Other Machine Learning Applications",
+      "category": "Miscellaneous",
       "keywords": [
         "Machine Learning",
         "Federated Learning"
@@ -1957,7 +1957,7 @@
       "year": 2022,
       "type": "conference",
       "status": "published",
-      "category": "Other Machine Learning Applications",
+      "category": "Miscellaneous",
       "keywords": [
         "Robotics",
         "Machine Learning",
@@ -1978,7 +1978,7 @@
       "year": 2021,
       "type": "conference",
       "status": "published",
-      "category": "Other Machine Learning Applications",
+      "category": "Miscellaneous",
       "keywords": [
         "Robotics",
         "Machine Learning",
@@ -2002,7 +2002,7 @@
       "year": 2020,
       "type": "journal",
       "status": "published",
-      "category": "Other Machine Learning Applications",
+      "category": "Miscellaneous",
       "keywords": [
         "Smart Grids",
         "Machine Learning"
@@ -2026,7 +2026,7 @@
       "year": 2018,
       "type": "conference",
       "status": "published",
-      "category": "Other Machine Learning Applications",
+      "category": "Miscellaneous",
       "keywords": [
         "Smart Grids",
         "Machine Learning",
@@ -2051,7 +2051,7 @@
       "year": 2015,
       "type": "conference",
       "status": "published",
-      "category": "Other Machine Learning Applications",
+      "category": "Miscellaneous",
       "keywords": [
         "Machine Learning",
         "Smart Oilfields"
@@ -2072,7 +2072,7 @@
       "year": 2013,
       "type": "conference",
       "status": "published",
-      "category": "Other Machine Learning Applications",
+      "category": "Miscellaneous",
       "keywords": [
         "Text Mining",
         "Network Science"
@@ -2093,7 +2093,7 @@
       "year": 2013,
       "type": "conference",
       "status": "published",
-      "category": "Other Machine Learning Applications",
+      "category": "Miscellaneous",
       "keywords": [
         "Text Mining",
         "Network Science"
@@ -2114,7 +2114,7 @@
       "year": 2012,
       "type": "conference",
       "status": "published",
-      "category": "Other Machine Learning Applications",
+      "category": "Miscellaneous",
       "keywords": [
         "Machine Learning"
       ],
