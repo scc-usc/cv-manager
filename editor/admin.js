@@ -94,7 +94,9 @@
     if (pubsText == null) pubsText = ser(await K.loadJSON(FILES.pubs));
     S.data.pubs = JSON.parse(pubsText); S.orig.pubs = ser(S.data.pubs);
     S.cvMissing = !cv;
-    S.data.cv = cv || emptyCV(); S.orig.cv = ser(S.data.cv);
+    S.data.cv = cv || emptyCV();
+    normalize();
+    S.orig.pubs = ser(S.data.pubs); S.orig.cv = ser(S.data.cv);
 
     const draft = lsGet(LS_DRAFT);
     if (draft && (ser(draft.pubs) !== S.orig.pubs || ser(draft.cv) !== S.orig.cv)) {
@@ -394,18 +396,19 @@
     const kws = K.allKeywords(d.publications);
     m.innerHTML =
       '<div class="grid2" style="align-items:start">' +
-      '<section class="panel"><h2>Themes</h2><p class="hint">Themes group publications on your website and in the CV. The order here is the order in the CV. Renaming a theme updates every publication in it.</p>' +
+      '<section class="panel"><h2>Themes</h2><p class="hint">Themes group publications on your website and in the CV. The order here is the order in the CV. Click Papers… to choose which papers are in a theme. Renaming a theme updates every publication in it.</p>' +
       '<table class="ltable"><tbody>' + d.categories.map((c, i) =>
         '<tr data-i="' + i + '"><td><input class="inp nm" value="' + esc(c) + '"></td><td class="n">' + (counts.get(c) || 0) + "</td>" +
-        '<td class="act"><button class="btn mini up" type="button" ' + (i === 0 ? "disabled" : "") + ' aria-label="Move up">↑</button> ' +
+        '<td class="act"><button class="btn mini assign" type="button">Papers…</button> <button class="btn mini up" type="button" ' + (i === 0 ? "disabled" : "") + ' aria-label="Move up">↑</button> ' +
         '<button class="btn mini down" type="button" ' + (i === d.categories.length - 1 ? "disabled" : "") + ' aria-label="Move down">↓</button> ' +
         '<button class="btn mini danger del" type="button">Delete</button></td></tr>').join("") +
       "</tbody></table>" +
       (counts.get("") ? '<p class="hint" style="margin-top:10px">' + counts.get("") + " publications have no theme.</p>" : "") +
-      '<div class="row" style="margin-top:12px"><input class="inp" id="newTheme" placeholder="New theme name" style="flex:1"><button class="btn" id="addTheme" type="button">Add theme</button></div></section>' +
-      '<section class="panel"><h2>Keywords</h2><p class="hint">Rename a keyword to fix it everywhere. Rename it to an existing keyword to merge the two.</p>' +
+      '<div class="row" style="margin-top:12px"><input class="inp" id="newTheme" placeholder="New theme name" style="flex:1"><button class="btn" id="addTheme" type="button">Add and choose papers</button></div></section>' +
+      '<section class="panel"><h2>Keywords</h2><p class="hint">Click Papers… to choose which papers have a keyword. Rename a keyword to fix it everywhere. Rename it to an existing keyword to merge the two.</p>' +
+      '<div class="row" style="margin-bottom:10px"><input class="inp" id="newKw" placeholder="New keyword" style="flex:1"><button class="btn" id="addKw" type="button">Add and choose papers</button></div>' +
       '<table class="ltable"><tbody>' + kws.map(([k, n]) =>
-        '<tr data-k="' + esc(k) + '"><td><input class="inp nm" value="' + esc(k) + '"></td><td class="n">' + n + '</td><td class="act"><button class="btn mini danger del" type="button">Remove</button></td></tr>').join("") +
+        '<tr data-k="' + esc(k) + '"><td><input class="inp nm" value="' + esc(k) + '"></td><td class="n">' + n + '</td><td class="act"><button class="btn mini assign" type="button">Papers…</button> <button class="btn mini danger del" type="button">Remove</button></td></tr>').join("") +
       "</tbody></table></section></div>";
 
     $$("tr[data-i]", m).forEach((tr) => {
@@ -416,6 +419,7 @@
         d.categories[i] = nv; d.publications.forEach((p) => { if (p.category === old) p.category = nv; });
         changed(); renderThemes(m);
       });
+      $(".assign", tr).onclick = () => openAssign("theme", d.categories[i], () => renderThemes(m));
       $(".up", tr).onclick = () => { d.categories.splice(i - 1, 0, d.categories.splice(i, 1)[0]); changed(); renderThemes(m); };
       $(".down", tr).onclick = () => { d.categories.splice(i + 1, 0, d.categories.splice(i, 1)[0]); changed(); renderThemes(m); };
       $(".del", tr).onclick = () => {
@@ -429,7 +433,16 @@
       const v = $("#newTheme").value.trim();
       if (!v || d.categories.includes(v)) { toast("Enter a new theme name."); return; }
       d.categories.push(v); changed(); renderThemes(m);
+      openAssign("theme", v, () => renderThemes(m));
     };
+    $("#newTheme").addEventListener("keydown", (e) => { if (e.key === "Enter") $("#addTheme").click(); });
+    $("#addKw").onclick = () => {
+      const v = $("#newKw").value.trim();
+      if (!v) { toast("Enter a keyword."); return; }
+      const existing = kws.map(([k]) => k).find((k) => k.toLowerCase() === v.toLowerCase());
+      openAssign("keyword", existing || v, () => renderThemes(m));
+    };
+    $("#newKw").addEventListener("keydown", (e) => { if (e.key === "Enter") $("#addKw").click(); });
     $$("tr[data-k]", m).forEach((tr) => {
       const k = tr.dataset.k;
       $(".nm", tr).addEventListener("change", (e) => {
@@ -440,12 +453,117 @@
         });
         changed(); renderThemes(m);
       });
+      $(".assign", tr).onclick = () => openAssign("keyword", k, () => renderThemes(m));
       $(".del", tr).onclick = () => {
         if (!window.confirm('Remove the keyword "' + k + '" from all publications?')) return;
         d.publications.forEach((p) => { p.keywords = (p.keywords || []).filter((x) => x !== k); });
         changed(); renderThemes(m);
       };
     });
+  }
+
+  /* ---------- bulk assign: choose the papers for one theme or keyword ---------- */
+  function openAssign(kind, name, after) {
+    const d = S.data.pubs;
+    const isTheme = kind === "theme";
+    const has = (p) => (isTheme ? p.category === name : (p.keywords || []).includes(name));
+    const pubs = K.sortPubs(d.publications, "newest");
+    const checked = new Set(pubs.filter(has));
+    const view = { q: "", cat: "", show: "" };
+
+    const ov = document.createElement("div");
+    ov.className = "overlay";
+    ov.innerHTML =
+      '<div class="sheet assign-sheet" role="dialog" aria-modal="true" aria-labelledby="as-h">' +
+      '<div class="sheet-h"><div><strong id="as-h">' + (isTheme ? "Papers in theme" : "Papers with keyword") + ":</strong> " + esc(name) + "</div>" +
+      '<button class="btn" type="button" data-x>Cancel</button></div>' +
+      '<div class="as-tools">' +
+      '<input class="inp" type="search" id="as-q" placeholder="Search title, author, venue, keyword">' +
+      '<select class="inp" id="as-cat"><option value="">All themes</option>' + optionList(d.categories, "") + '<option value="__none">No theme</option></select>' +
+      '<select class="inp" id="as-show"><option value="">All papers</option><option value="on">Checked</option><option value="off">Not checked</option></select>' +
+      '<div class="row"><button class="btn mini" type="button" id="as-all">Check all shown</button><button class="btn mini" type="button" id="as-none">Uncheck all shown</button></div>' +
+      "</div>" +
+      '<div class="as-list" id="as-list"></div>' +
+      '<div class="as-foot"><span class="hint" id="as-sum"></span><div class="row">' +
+      '<button class="btn" type="button" data-x>Cancel</button><button class="btn primary" type="button" id="as-ok">Apply</button></div></div></div>';
+
+    function shown() {
+      const q = view.q.toLowerCase();
+      return pubs.filter((p) => {
+        if (view.cat === "__none" ? p.category : view.cat && p.category !== view.cat) return false;
+        if (view.show === "on" && !checked.has(p)) return false;
+        if (view.show === "off" && checked.has(p)) return false;
+        if (!q) return true;
+        const hay = [p.title, p.venue, (p.authors || []).join(" "), (p.keywords || []).join(" "), p.year].join(" ").toLowerCase();
+        return q.split(/\s+/).every((w) => hay.includes(w));
+      });
+    }
+    function summary() {
+      const added = pubs.filter((p) => checked.has(p) && !has(p)).length;
+      const removed = pubs.filter((p) => !checked.has(p) && has(p)).length;
+      let t = checked.size + " checked";
+      if (added || removed) t += " · " + added + " added, " + removed + " removed";
+      $("#as-sum", ov).textContent = t;
+      return { added, removed };
+    }
+    function draw() {
+      const list = shown();
+      $("#as-list", ov).innerHTML = list.length ? list.map((p) => {
+        const i = pubs.indexOf(p);
+        const meta = isTheme
+          ? (p.category ? (p.category === name ? "In this theme" : "Now in: " + esc(p.category)) : "No theme")
+          : esc((p.keywords || []).join(", ") || "No keywords");
+        return '<label class="as-row"><input type="checkbox" data-i="' + i + '"' + (checked.has(p) ? " checked" : "") + ">" +
+          '<span><span class="as-t">' + esc(p.title || "(untitled)") + '</span><span class="as-m">' + esc(p.year) + " · " + esc(p.venue) + "</span>" +
+          '<span class="as-m">' + meta + "</span></span></label>";
+      }).join("") : '<p class="emptyed">No papers match.</p>';
+      $$("input[data-i]", ov).forEach((cb) => (cb.onchange = () => {
+        const p = pubs[+cb.dataset.i];
+        if (cb.checked) checked.add(p); else checked.delete(p);
+        summary();
+      }));
+      summary();
+    }
+    function close() { ov.remove(); document.removeEventListener("keydown", onKey); }
+    function onKey(e) { if (e.key === "Escape") close(); }
+
+    $$("[data-x]", ov).forEach((b) => (b.onclick = close));
+    ov.addEventListener("click", (e) => { if (e.target === ov) close(); });
+    document.addEventListener("keydown", onKey);
+    $("#as-q", ov).oninput = (e) => { view.q = e.target.value.trim(); draw(); };
+    $("#as-cat", ov).onchange = (e) => { view.cat = e.target.value; draw(); };
+    $("#as-show", ov).onchange = (e) => { view.show = e.target.value; draw(); };
+    $("#as-all", ov).onclick = () => { shown().forEach((p) => checked.add(p)); draw(); };
+    $("#as-none", ov).onclick = () => { shown().forEach((p) => checked.delete(p)); draw(); };
+    $("#as-ok", ov).onclick = () => {
+      const { added, removed } = summary();
+      if (!added && !removed) { close(); return; }
+      if (isTheme) {
+        const moved = pubs.filter((p) => checked.has(p) && !has(p) && p.category).length;
+        const parts = [];
+        const n = (k) => k + (k === 1 ? " paper" : " papers");
+        if (moved) parts.push(n(moved) + " will move here from another theme");
+        if (removed) parts.push(n(removed) + " will leave this theme and have no theme");
+        if (parts.length && !window.confirm(parts.join(". ") + ". Continue?")) return;
+        pubs.forEach((p) => {
+          if (checked.has(p)) p.category = name;
+          else if (p.category === name) p.category = "";
+        });
+        if (!d.categories.includes(name)) d.categories.push(name);
+      } else {
+        pubs.forEach((p) => {
+          const ks = p.keywords || [];
+          if (checked.has(p) && !ks.includes(name)) p.keywords = ks.concat(name);
+          else if (!checked.has(p) && ks.includes(name)) p.keywords = ks.filter((x) => x !== name);
+        });
+      }
+      close(); changed(); if (after) after();
+      toast((added ? added + " added" : "") + (added && removed ? ", " : "") + (removed ? removed + " removed" : "") + ". Click Save to publish.");
+    };
+
+    document.body.appendChild(ov);
+    draw();
+    $("#as-q", ov).focus();
   }
 
   /* ---------- import and export tab ---------- */
