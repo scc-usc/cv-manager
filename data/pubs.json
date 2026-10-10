@@ -129,7 +129,7 @@
       "year": 2024,
       "type": "workshop",
       "status": "published",
-      "category": "",
+      "category": "Graph Machine Learning and other Foundational Work",
       "keywords": [
         "Machine Learning",
         "Neural Architecture"
@@ -216,27 +216,6 @@
       ],
       "award": "",
       "url": "https://arxiv.org/abs/2512.00421",
-      "note": ""
-    },
-    {
-      "id": "srivastava2025peer",
-      "title": "Peer Disambiguation in Self-Reported Surveys using Graph Attention Networks",
-      "authors": [
-        "A. Srivastava",
-        "A. Shetty",
-        "E. Rice"
-      ],
-      "venue": "arXiv:2503.20076",
-      "year": 2025,
-      "type": "preprint",
-      "status": "preprint",
-      "category": "",
-      "keywords": [
-        "Graph Neural Networks",
-        "Social Good"
-      ],
-      "award": "",
-      "url": "https://arxiv.org/abs/2503.20076",
       "note": ""
     },
     {
